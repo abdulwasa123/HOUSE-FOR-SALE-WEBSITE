@@ -8,21 +8,29 @@
 </head>
 <body>
 
-    <div class="navbar">
+    <div class="navbar" id="home">
         <nav>
-            <img src="logo.png" alt="" id="nav-logo">
+            <a href="index.html">
+                <img src="logo.png" alt="" id="nav-logo">
+            </a>
     
             <ul>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Service</li>
-                <li><a href="#"></a>Agents</li>
-                <li><a href="#"></a>Contact</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#help">Help</a></li>
             </ul>
     
         <div class="nav-icons">
-            <img src="search.png" alt="">
+            <a href="#search">
+                <img src="search.png" alt="">
+            </a>
+            
             <img src="user.png" alt="">
-            <button>Sign Up</button>
+
+            <a href="sign_up.html">
+                <button>Sign Up</button>
+            </a>
         </div>
     
         </nav>
@@ -35,7 +43,10 @@
             <h4>Explore our curated selection of exquisite<br>
                 properties meticulously tailored to your<br>
                 unique dream home vision</h4>
-            <button>Sign Up</button>
+
+                <a href="sign_up.html">
+                    <button id="search">Sign Up</button>
+                </a>
         </div>
 
         <div class="hero-right">
@@ -59,14 +70,17 @@
                     <img src="average_2_100px.png" alt="">
                     <input placeholder="Price Range" type="search" class="input">
                 </div>
-            </div>    
-            <button id="hero-section-2-btn">Sign Up</button> 
+            </div> 
+            
+            <a href="sign_up.html">
+                <button id="hero-section-2-btn">Sign Up</button> 
+            </a>
         </div>
     </div>
 
     <!-- section two of the website -->
     <div class="white-cont">
-        <div class="hero-section-3">
+        <div class="hero-section-3" id="service">
                 <img src="Mask group.png" alt="">
 
                 <div>
@@ -125,29 +139,57 @@
         
         <div class="hero-section-5">
             <h1>Our Popular Residences</h1>
+
+            <a href="sign_up.html">
                 <img src="Frame 5.png" alt="">
+            </a>
+
+            <a href="sign_up.html">
                 <img src="Frame 6.png" alt="">
+            </a>
+
+            <a href="sign_up.html">
                 <img src="Frame 7.png" alt="">
+            </a>
+            
         </div>
 
         <!-- section two of the website -->
-        <div class="hero-section-6 hero-section-5">
-            <div class="hs6-txt">
-                <h1>What People Say<br>About Dwello</h1>
+
+            <div class="hero-section-6 hero-section-5">
+                <div class="invicible" id="reviews">
+                </div>
+                <div class="hs6-txt">
+                    <h1>What People Say<br>About Dwello</h1>
+                </div>
+    
+            <div class="position-hrs6">
+
+                <div class="hrs6-img-cont">
+                    <div class="hrs6-img">
+                        <img src="Frame 8.png" alt="">
+                        <img src="Frame 9.png" alt="">
+                        <img src="Frame 10.png" alt="">
+                    </div>
+    
+                    <div class="hrs6-img img-2">
+                        <img src="Frame 8.png" alt="">
+                        <img src="Frame 9.png" alt="">
+                        <img src="Frame 10.png" alt="">
+                    </div>
             </div>
-            <div class="hrs6-img">
-                    <img src="Frame 8.png" alt="">
-                    <img src="Frame 9.png" alt="">
-                    <img src="Frame 10.png" alt="">
+    
             </div>
-            <div class="slider-btn">
-                <img src="Group 18.png" alt="">
-                <img src="Group 19.png" alt="">
-            </div>    
-        </div>
+        
+                <div class="slider-btn">
+                    <img src="Group 18.png" alt="" id="backBtn">
+                    <img src="Group 19.png" alt="" id="nextBtn">
+                </div>    
+            </div>        
 
         <!-- section three of the website -->
-        <div class="white-cont-2">
+
+        <div class="white-cont-2" id="help">
             <div class="hero-section-7 hero-section-5">
                 <h1>Do You Have Any Questions?<br>Get Help From Us</h1>
 
@@ -178,10 +220,12 @@
 
         <footer>
             <div class="three-and-four-footer-cont logo-footer-cont">
-                <img src="logo.png" alt="">
+                <a href="#home">
+                    <img src="logo.png" alt="" id="nav-logo">
+                </a>
                 <p class="yt">Bringing you closer to<br>
                             your dream home, one<br>
-                            click at a time.</p>
+                          click at a time.</p>
             </div>
 
             <div class="three-and-four-footer-cont">
@@ -239,5 +283,7 @@
 
     </div>
     
+    <script src="customer_review_horizontal_slide.js"></script>
+
 </body>
 </html>

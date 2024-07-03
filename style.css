@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgba(254,247,242,255);
 }
@@ -32,6 +35,10 @@ nav ul{
     display: flex;
     gap: 4rem;
     margin-left: 7rem;
+}
+nav a{
+    text-decoration: none;
+    color: #2B1B12;
 }
 nav ul li{
     list-style-type: none;
@@ -337,18 +344,51 @@ span{
     transform: scale(1.04);
 }
 
-
-.hrs6-img{
+.position-hrs6{
     display: flex;
+    justify-content: center;
+}
+.hrs6-img-cont{
+    width: 1140px;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+} 
+.hrs6-img{
+    /* display: flex;
+    justify-content: center;
+    scroll-behavior: auto;
+    gap: 2rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-top: 3rem; */
+
+    width: 98%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    padding: 10px;
+    flex: none;
+    scrollbar-width: none;
+
+
+   
+    /* display: flex;
     flex-direction: row;
     margin-top: 3rem;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 2rem; */
 }
-.hero-section-6 img{
+.hrs6-img img{
+    width: 100%;
+}
+/* .hero-section-6 img{
     width: 21.8rem;
-}
+} */
 .slider-btn{
     display: flex;
     justify-content: center;
@@ -357,6 +397,10 @@ span{
 }
 .slider-btn img{
     width: 58px;
+}
+.invicible{
+    position: absolute;
+    margin-top: -2.5rem;
 }
 
 .white-cont-2{
