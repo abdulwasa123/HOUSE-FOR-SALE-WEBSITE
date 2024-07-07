@@ -36,15 +36,16 @@
     <div class="form-container">
         
     <form class="form">
-        <p class="title">Register </p>
-        <p class="message">Signup now and get full access to our app. </p>
+        <p class="title" id="loginText">Register </p>
+        <p class="message">SignUp now</p>
             <div class="flex">
-            <label>
-                <input class="input" type="text" placeholder="" required="">
+
+            <label id="firstname">
+                <input class="input"  type="text" placeholder="" required="">
                 <span>Firstname</span>
             </label>
     
-            <label>
+            <label id="lastname">
                 <input class="input" type="text" placeholder="" required="">
                 <span>Lastname</span>
             </label>
@@ -59,15 +60,20 @@
             <input class="input" type="password" placeholder="" required="">
             <span>Password</span>
         </label>
-        <label>
+        <label id="confirmpassword">
             <input class="input" type="password" placeholder="" required="">
             <span>Confirm password</span>
         </label>
-        <button class="submit">Submit</button>
-        <p class="signin">Already have an account ? <a href="#">Sign in</a> </p>
+
+        <div class="btn-cont">
+            <button class="submit" id="signup">Sign Up</button>
+            <button class="submit" id="login">Login</button>
+        </div>
+        
     </form>
 
 </div>
+
 
 
     <footer>
@@ -131,5 +137,8 @@
         </div>
 
     </footer>
+
+    <script src="sign_in.js"></script>
+
 </body>
 </html>

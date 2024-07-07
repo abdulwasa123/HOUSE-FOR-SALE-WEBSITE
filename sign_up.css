@@ -1,6 +1,9 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgba(254,247,242,255);
     font-family: montserrat;
+    height: 100vh;
 }
 @font-face {
     font-family: montserrat;
@@ -86,6 +89,7 @@ nav button:hover{
 .form-container{
     display: flex;
     justify-content: center;
+    margin-top: 8rem;
 }
 .form {
     display: flex;
@@ -110,6 +114,7 @@ nav button:hover{
     display: flex;
     align-items: center;
     padding-left: 30px;
+    margin-left: -15px;
   }
   
   .title::before,.title::after {
@@ -196,7 +201,12 @@ nav button:hover{
   .form label .input:valid + span {
     color: green;
   }
-  
+  .btn-cont{
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
   .submit {
     border: none;
     outline: none;
@@ -206,8 +216,7 @@ nav button:hover{
     color: #fff;
     font-size: 16px;
     transform: .3s ease;
-    width: 360px;
-    margin-left: -1.2rem;
+    width: 170px;
     margin-bottom: 1rem;
   }
   
@@ -239,10 +248,9 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 102.15%;
-    margin-left: -1.5rem;
-    margin-top: 8rem;
+    width: 100%;
     background-color: #ffff;
+    margin-top: 9rem;
 }
 .logo-footer-cont{
     display: flex;
@@ -301,4 +309,45 @@ footer{
 .twitter-cont img{
     width: 16px;
     margin-left: 0.1rem;
+}
+
+/* MEDIA QUERY FOR LESSER DEVICES */
+@media (max-width: 1350px) {
+  nav{
+      gap: 9rem;
+  }
+  nav ul{
+      margin-left: -2rem;
+  }
+}
+@media (max-width: 1281px) {
+  .form{
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1150px) {
+  nav{
+      gap: 6rem;
+  }
+}
+@media (max-width: 1108px) {
+  nav{
+      gap: 4rem;
+}
+  nav ul{
+      gap: 3rem;
+  }
+}
+@media (max-width: 980px) {
+  .navbar{
+      transform: scale(0.9);
+  }
+  .form{
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 920px) {
+  .navbar,.hero-section{
+      transform: scale(0.85);
+  }
 }
