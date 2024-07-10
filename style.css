@@ -855,7 +855,7 @@ footer{
     .harmbuger{
         display: flex;
         position: fixed;
-        top: 3.3%;
+        top: 1.4rem;
         left: 94.5%;
         z-index: 1;
     }
@@ -881,7 +881,20 @@ footer{
         gap: 35rem;
     }
     #nav-logo{
+        position: absolute;
+        left: 1.5rem;
         margin-top: 1rem;
+    }
+    .logo-footer-cont{
+        margin-bottom: 6rem;
+    }
+    .footer-logo-txt{
+        margin-top: 2rem;
+    }
+    .hero-section-7 input{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: montserrat;
     }
 }
 
@@ -1003,13 +1016,30 @@ footer{
     }
     .group-cont input{
         width: 35rem;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: montserrat;
     }
     .group-cont img{
-        left: 32.3rem;
+        width: 35px;
+        height: 30px;
+        left: 32rem;
+    }
+    .price-cont img{
+        width: 42px;
+        height: 42px;
+    }
+    .group-cont{
+        gap: 2rem;
+    }
+    .group-cont .group{
+        margin-top: -1rem;
     }
     #hero-section-2-btn{
+        font-size: 22px;
         width: 15rem;
         margin: 0;
+        border-radius: 1rem;
     }
     .position-hero-section-3{
         margin-top: -8rem;
@@ -1026,7 +1056,7 @@ footer{
 }
 @media (max-width: 688px) {
     #nav-logo{
-        margin-left: 1rem;
+        margin-left: -0.5rem;
     }
     .three-and-four-footer-cont h4{
         font-size: 14px;
@@ -1175,7 +1205,6 @@ footer{
     .hero-section-4{
         margin-top: -23rem;
     }
-    
     .popular-residence{
         margin-top: -23rem;
     }
@@ -1212,6 +1241,14 @@ footer{
     .socials{
         margin-left: -1.1rem;
     }
+    .socials div{
+        margin-left: -0.65rem;
+        gap: 2rem;
+    }
+    .insta{
+        position: absolute;
+        margin-top: -0.4rem;
+    }
     .instagram-cont{
         margin-left: 0.3rem;
     }
@@ -1244,14 +1281,6 @@ footer{
         transform: scale(0.65);
         gap: 0rem;
     }
-    /* .group-cont{
-        transform: scale(0.6);
-        margin-left: -7rem;
-    }
-    .hero-section-2 button{
-        margin-left: -11rem;
-        transform: scale(0.6);
-    } */
     .hero-section-3{
         margin-top: -6rem;
         transform: scale(0.6);
