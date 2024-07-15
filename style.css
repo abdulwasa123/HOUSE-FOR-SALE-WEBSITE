@@ -874,6 +874,7 @@ footer{
     }
     nav{
         margin: 0;
+        top: 0;
         background-color: #DDC7BB;
         height: 4rem;
         width: 100%;
@@ -881,7 +882,7 @@ footer{
         gap: 35rem;
     }
     #nav-logo{
-        position: absolute;
+        position: fixed;
         left: 1.5rem;
         margin-top: 1rem;
     }
@@ -1053,6 +1054,51 @@ footer{
     .reviews-shift-cont{
         margin-top: -9rem;
     }
+
+    footer{
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    .three-and-four-footer-cont{
+        margin-top: 0.5rem;
+        transform: scale(1.25);
+    }
+    .three-content{
+        margin-top: -5rem;
+        margin-left: 0.4rem;
+    }
+    .one{
+        margin-left: -0.7rem;
+    }
+    .one, .two{
+        margin-top: -5rem;
+    }
+    .one h4{
+        margin-left: -1.7rem;
+    }
+    .three p{
+        margin-left: -0.5rem;
+    }
+    .support{
+        margin-left: 2rem;
+    }
+    #support-txt{
+        padding-left: 1.1rem;
+    }
+    .socials{
+        margin-left: -1.1rem;
+    }
+    .socials div{
+        margin-left: -0.65rem;
+        gap: 2rem;
+    }
+    .insta{
+        position: absolute;
+        margin-top: -0.4rem;
+    }
+    .instagram-cont{
+        margin-left: 0.3rem;
+    }
 }
 @media (max-width: 688px) {
     #nav-logo{
@@ -1208,50 +1254,7 @@ footer{
     .popular-residence{
         margin-top: -23rem;
     }
-    footer{
-        flex-direction: column;
-        gap: 2.5rem;
-    }
-    .three-and-four-footer-cont{
-        margin-top: 0.5rem;
-        transform: scale(1.25);
-    }
-    .three-content{
-        margin-top: -5rem;
-        margin-left: 0.4rem;
-    }
-    .one{
-        margin-left: -0.7rem;
-    }
-    .one, .two{
-        margin-top: -5rem;
-    }
-    .one h4{
-        margin-left: -1.7rem;
-    }
-    .three p{
-        margin-left: -0.5rem;
-    }
-    .support{
-        margin-left: 2rem;
-    }
-    #support-txt{
-        padding-left: 1.1rem;
-    }
-    .socials{
-        margin-left: -1.1rem;
-    }
-    .socials div{
-        margin-left: -0.65rem;
-        gap: 2rem;
-    }
-    .insta{
-        position: absolute;
-        margin-top: -0.4rem;
-    }
-    .instagram-cont{
-        margin-left: 0.3rem;
-    }
+    
     .hero-left h1{
         font-size: 50px;
     }
