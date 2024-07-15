@@ -8,7 +8,7 @@ body{
 }
 @font-face {
     font-family: montserrat;
-    src: url(Montserrat-VariableFont_wght.ttf);
+    src: url(./Montserrat-VariableFont_wght.ttf);
 }
 .navbar{
     display: flex;
